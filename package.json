@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KafHat/node_react_boilerplate/issues"
   },
-  "homepage": "https://github.com/KafHat/node_react_boilerplate#readme"
+  "homepage": "https://github.com/KafHat/node_react_boilerplate#readme",
+  "dependencies": {
+    "express": "4.14.0"
+  }
 }
