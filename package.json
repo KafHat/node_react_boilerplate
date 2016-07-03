@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/KafHat/node_react_boilerplate#readme",
   "dependencies": {
+    "ejs": "^2.4.2",
     "express": "4.14.0"
   }
 }

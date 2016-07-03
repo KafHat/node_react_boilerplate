@@ -1,8 +1,12 @@
 var express = require('express');
 var app = express();
 
+app.set('view engine', 'ejs');
+app.set('views', __dirname + '/views');
+app.use('/static', express.static(__dirname + '/../client'));
+
 app.get('/', function (req, res) {
-   res.send('Hello');
+   res.render('index');
 });
 
 app.listen(3000, function () {
