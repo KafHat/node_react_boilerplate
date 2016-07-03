@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/KafHat/node_react_boilerplate#readme",
   "dependencies": {
-    "ejs": "^2.4.2",
+    "ejs": "2.4.2",
     "express": "4.14.0",
-    "gulp": "^3.9.1"
+    "gulp": "3.9.1",
+    "react": "15.2.0",
+    "react-dom": "15.2.0"
   }
 }
